@@ -26,7 +26,7 @@ const Dashboard = async () => {
           uniqueCategories?.map((uniqueCategory, categoryIndex) => (
             <div key={categoryIndex} className="mb-4">
               <h2>{uniqueCategory}</h2>{" "}
-              {/* Fix: Use uniqueCategory instead of uniqueCategories */}
+
               <div className="lg:grid grid-cols-2 xl:grid-cols-4">
                 {tickets
                   .filter((ticket) => ticket.category === uniqueCategory)
