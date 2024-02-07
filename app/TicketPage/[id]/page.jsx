@@ -2,7 +2,7 @@ import TicketForm from "@/app/(components)/TicketForm";
 import React from "react";
 
 const getTicketById = async (id) => {
-  const res = await fetch(`http://localhost:3000/api/Tickets/${id}`, {
+  const res = await fetch(`https://ticket-app-demo.netlify.app/api/Tickets/${id}`, {
     cache: "no-cache",
   });
 
