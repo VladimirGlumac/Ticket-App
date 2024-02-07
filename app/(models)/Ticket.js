@@ -15,6 +15,7 @@ const ticketSchema = new Schema(
   },
   {
     timestamps: true,
+    
   }
 );
 
